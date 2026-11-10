@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Architect Kshitij Dhande — Architect in Nashik</title>
+<meta name="description" content="Design and build in Nashik, from the first sketch to the final styling. 3D walkthroughs before a wall moves, turnkey execution on a fixed timeline.">
+<meta name="robots" content="noindex">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://media.base44.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;1,9..144,400;1,9..144,600&family=Inter:wght@400;500;600;650;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --ink:#1a1714; --brand:#6b4a2f; --accent:#c89b6a; --soft:#f7f2ec; --on:#ffffff;
+  --paper:#fbfaf7; --line:rgba(14,20,22,.11); --muted:#5f6873; --mute2:#8b939e;
+  --disp:"Fraunces",ui-serif,Georgia,"Times New Roman",serif;
+  --sans:"Inter",system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  --max:1180px; --r:20px;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--paper);color:#333b45;font-family:var(--sans);
+  font-size:16.5px;line-height:1.6;-webkit-font-smoothing:antialiased}
+img{display:block;max-width:100%}
+h1,h2,h3{font-family:var(--disp);color:var(--ink);margin:0;font-weight:600;
+  line-height:1.06;letter-spacing:-.025em}
+p{margin:0}
+a{color:inherit;text-decoration:none}
+.wrap{width:min(var(--max),92vw);margin:0 auto}
+.flag{background:var(--ink);color:#dfe3e8;font-size:12px;text-align:center;
+  padding:8px 16px;letter-spacing:.01em;font-family:var(--sans)}
+.flag b{color:#fff;font-weight:600}
+.flag i{font-style:normal;color:var(--accent);margin:0 6px}
+
+header{position:sticky;top:0;z-index:60;background:rgba(251,250,247,.86);
+  backdrop-filter:blur(16px);border-bottom:1px solid var(--line)}
+.nav{display:flex;align-items:center;justify-content:space-between;gap:22px;height:70px}
+.brand{display:flex;align-items:center;gap:11px;min-width:0}
+.mark{width:36px;height:36px;flex:none;border-radius:11px;background:var(--brand);
+  color:var(--on);display:grid;place-items:center;font:700 15px/1 var(--sans)}
+.brand span{font-weight:650;color:var(--ink);font-size:16px;letter-spacing:-.01em;
+  white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:38vw}
+.nav ul{display:flex;gap:28px;list-style:none;margin:0;padding:0;font-size:14.5px;font-weight:500;
+  color:#4d5563}
+.nav ul a:hover{color:var(--brand)}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:9px;border-radius:999px;
+  padding:13px 24px;font:650 14.5px/1 var(--sans);letter-spacing:-.005em;
+  border:1px solid transparent;cursor:pointer;transition:transform .15s,box-shadow .15s,background .15s}
+.btn:hover{transform:translateY(-1px)}
+.btn-main{background:var(--brand);color:var(--on);box-shadow:0 10px 22px -14px var(--brand)}
+.btn-wa{background:#1faa55;color:#fff;box-shadow:0 10px 22px -14px #1faa55}
+.btn-line{border-color:var(--line);background:#fff;color:var(--ink)}
+.btn-mini{padding:11px 18px;font-size:13.5px}
+
+.hero{padding:74px 0 84px}
+.hero-grid{display:grid;grid-template-columns:1.04fr .96fr;gap:clamp(32px,5vw,68px);align-items:center}
+.eye{display:inline-flex;align-items:center;gap:10px;font:600 11.5px/1 var(--sans);
+  letter-spacing:.16em;text-transform:uppercase;color:var(--brand);margin-bottom:22px}
+.eye::before{content:"";width:26px;height:1px;background:var(--brand);opacity:.45}
+.hero h1{font-size:clamp(2.5rem,5.1vw,4.05rem)}
+.hero h1 em{font-style:italic;color:var(--brand)}
+.lede{margin-top:22px;font-size:clamp(1.04rem,1.3vw,1.15rem);color:#4d5563;max-width:43ch}
+.cta-row{display:flex;flex-wrap:wrap;gap:12px;margin-top:32px}
+.trust{display:flex;flex-wrap:wrap;gap:0;margin-top:38px;border-top:1px solid var(--line);padding-top:22px}
+.trust div{padding-right:30px;margin-right:30px;border-right:1px solid var(--line)}
+.trust div:last-child{border:0;margin:0;padding:0}
+.trust b{display:block;font:600 17px/1.3 var(--sans);color:var(--ink);letter-spacing:-.01em}
+.trust small{font-size:12px;color:var(--mute2);letter-spacing:.02em}
+.stars{color:#e8a33d;letter-spacing:.5px}
+
+.figure{position:relative}
+.figure::before{content:"";position:absolute;inset:18px -18px -18px 18px;border-radius:26px;
+  background:var(--brand);opacity:.13}
+.figure img{position:relative;width:100%;height:auto;aspect-ratio:4/4.7;object-fit:cover;
+  border-radius:24px;box-shadow:0 40px 70px -46px rgba(10,18,20,.55)}
+.chip{position:absolute;left:-14px;bottom:26px;background:#fff;border-radius:15px;padding:14px 17px;
+  box-shadow:0 22px 40px -26px rgba(10,18,20,.6);display:flex;gap:12px;align-items:center;
+  border:1px solid rgba(14,20,22,.06);max-width:76%}
+.chip .dot{width:34px;height:34px;flex:none;border-radius:10px;background:var(--soft);color:var(--brand);
+  display:grid;place-items:center;font:700 13px/1 var(--sans)}
+.chip b{display:block;font:600 13.5px/1.35 var(--sans);color:var(--ink);white-space:nowrap;
+  overflow:hidden;text-overflow:ellipsis}
+.chip small{font-size:12px;color:var(--mute2)}
+
+.marq{border-top:1px solid var(--line);border-bottom:1px solid var(--line);background:#fff;
+  overflow:hidden;padding:15px 0}
+.marq-track{display:flex;gap:0;width:max-content;animation:slide 34s linear infinite}
+.marq:hover .marq-track{animation-play-state:paused}
+.marq span{display:inline-flex;align-items:center;gap:24px;padding-right:24px;
+  font:600 12.5px/1 var(--sans);letter-spacing:.11em;text-transform:uppercase;color:#5c6672;white-space:nowrap}
+.marq span::after{content:"◆";color:var(--accent);font-size:8px}
+@keyframes slide{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+
+section{padding:96px 0}
+.h2{font-size:clamp(1.85rem,3.3vw,2.7rem)}
+.kick{font:700 11.5px/1 var(--sans);letter-spacing:.16em;text-transform:uppercase;
+  color:var(--brand);margin-bottom:16px}
+
+.svc{display:grid;grid-template-columns:.82fr 1.18fr;gap:clamp(28px,5vw,70px);align-items:start}
+.svc-aside{position:sticky;top:98px}
+.svc-aside p{margin-top:18px;color:#4d5563;max-width:34ch}
+.rows{display:grid}
+.row{display:grid;grid-template-columns:54px 1fr;gap:16px;padding:22px 14px 22px 0;
+  border-top:1px solid var(--line);transition:background .18s,padding .18s}
+.row:last-child{border-bottom:1px solid var(--line)}
+.row:hover{background:#fff;padding-left:14px}
+.row .no{font:600 12px/1.6 ui-monospace,SFMono-Regular,Menlo,monospace;color:var(--accent);
+  letter-spacing:.08em;padding-top:5px}
+.row h3{font-size:19px;letter-spacing:-.015em;font-family:var(--sans);font-weight:650;color:var(--ink)}
+.row p{margin-top:6px;font-size:15px;color:#5b6472}
+
+.band{position:relative;padding:0;height:clamp(340px,46vw,470px);overflow:hidden}
+.band img{width:100%;height:100%;object-fit:cover}
+.band::after{content:"";position:absolute;inset:0;
+  background:linear-gradient(95deg,rgba(8,14,16,.88),rgba(8,14,16,.55) 46%,rgba(8,14,16,.12))}
+.band-in{position:absolute;inset:0;display:flex;align-items:flex-end;padding-bottom:clamp(28px,4vw,54px);z-index:2}
+.band-in h2{color:#fff;font-size:clamp(1.6rem,3vw,2.5rem);max-width:20ch}
+.band-in p{color:#d3dae1;margin-top:14px;max-width:44ch;font-size:15.5px}
+
+.gal{display:grid;grid-template-columns:1.3fr 1fr;grid-template-rows:220px 220px;gap:14px}
+.gal figure{margin:0;position:relative;border-radius:16px;overflow:hidden;background:var(--soft)}
+.gal figure:first-child{grid-row:span 2}
+.gal img{width:100%;height:100%;object-fit:cover;transition:transform .5s ease}
+.gal figure:hover img{transform:scale(1.04)}
+.gal figcaption{position:absolute;left:0;right:0;bottom:0;padding:26px 16px 12px;color:#fff;
+  font:600 12.5px/1 var(--sans);letter-spacing:.02em;
+  background:linear-gradient(transparent,rgba(6,12,14,.72))}
+.note{margin-top:16px;font-size:12.5px;color:var(--mute2)}
+
+.quotes{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.quote{background:#fff;border:1px solid var(--line);border-radius:var(--r);padding:26px 24px 22px;
+  display:flex;flex-direction:column;justify-content:space-between;transition:box-shadow .2s,transform .2s}
+.quote:hover{transform:translateY(-3px);box-shadow:0 26px 40px -34px rgba(10,18,20,.5)}
+.quote .q{font-family:var(--disp);font-size:35px;line-height:.7;color:var(--accent);margin-bottom:12px}
+.quote p{font-size:15px;color:#3f4753}
+.quote footer{margin-top:20px;display:flex;align-items:center;gap:11px}
+.avatar{width:34px;height:34px;border-radius:50%;background:var(--soft);color:var(--brand);
+  display:grid;place-items:center;font:700 13px/1 var(--sans);flex:none}
+.quote strong{display:block;font:600 13.5px/1.4 var(--sans);color:var(--ink)}
+.quote span{font-size:12px;color:var(--mute2)}
+
+.contact{display:grid;grid-template-columns:.92fr 1.08fr;gap:clamp(30px,5vw,64px);align-items:start}
+.info{list-style:none;padding:0;margin:30px 0 0;display:grid;gap:18px}
+.info li{display:flex;gap:14px;font-size:15px;color:#3f4753}
+.info .ic{width:38px;height:38px;flex:none;border-radius:11px;background:#fff;border:1px solid var(--line);
+  display:grid;place-items:center;color:var(--brand);font-size:15px}
+.info b{display:block;font:650 11px/1.6 var(--sans);text-transform:uppercase;letter-spacing:.11em;
+  color:var(--mute2);margin-bottom:2px}
+.info a:hover{color:var(--brand)}
+.hours{list-style:none;padding:22px 0 0;margin:26px 0 0;border-top:1px solid var(--line);font-size:14.5px}
+.hours li{display:flex;justify-content:space-between;padding:8px 0;color:#4d5563}
+.hours span{color:var(--mute2)}
+form{background:#fff;border:1px solid var(--line);border-radius:var(--r);padding:clamp(22px,3vw,32px);
+  box-shadow:0 34px 60px -52px rgba(10,18,20,.6)}
+form h3{font-size:21px;font-family:var(--sans);font-weight:650;letter-spacing:-.02em}
+form .hint{font-size:13.5px;color:var(--mute2);margin:7px 0 22px}
+.field{margin-bottom:14px}
+label{display:block;font:650 11.5px/1 var(--sans);color:#4d5563;margin-bottom:7px;
+  letter-spacing:.06em;text-transform:uppercase}
+input,select,textarea{width:100%;padding:12px 14px;border:1px solid #e0e4ea;border-radius:11px;
+  font:inherit;font-size:15px;color:var(--ink);background:#fcfcfd}
+input:focus,select:focus,textarea:focus{outline:none;border-color:var(--brand);background:#fff;
+  box-shadow:0 0 0 3px rgba(20,80,90,.10)}
+.row2{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+form .btn{width:100%;margin-top:8px}
+.small{font-size:12.5px;color:var(--mute2);text-align:center;margin-top:12px}
+
+footer{background:var(--ink);color:#b9c2cc;padding:60px 0 0;font-size:14.5px}
+footer .cols{display:grid;grid-template-columns:1.5fr 1fr 1fr;gap:44px}
+footer .brand span{color:#fff}
+footer .mark{background:rgba(255,255,255,.14);color:#fff}
+footer h4{color:#fff;font:650 11.5px/1 var(--sans);letter-spacing:.14em;text-transform:uppercase;
+  margin:0 0 16px}
+footer p{color:#8e99a6;max-width:34ch;margin-top:14px}
+footer ul{list-style:none;padding:0;margin:0;display:grid;gap:10px}
+footer a:hover{color:#fff}
+.legal{margin-top:48px;border-top:1px solid rgba(255,255,255,.12);padding:20px 0;
+  display:flex;justify-content:space-between;gap:14px;flex-wrap:wrap;font-size:12.5px;color:#7d8794}
+
+.wa{position:fixed;right:20px;bottom:22px;z-index:80;width:54px;height:54px;border-radius:50%;
+  background:#1faa55;display:grid;place-items:center;box-shadow:0 16px 30px -12px rgba(10,40,20,.6)}
+.wa svg{width:27px;height:27px;fill:#fff}
+.mbar{display:none;position:fixed;left:0;right:0;bottom:0;z-index:90;gap:9px;
+  padding:10px 12px calc(10px + env(safe-area-inset-bottom));background:rgba(255,255,255,.97);
+  border-top:1px solid var(--line);backdrop-filter:blur(14px)}
+.mbar .btn{flex:1}
+.reveal{opacity:0;transform:translateY(16px);transition:opacity .6s ease,transform .6s ease}
+.reveal.in{opacity:1;transform:none}
+@media(prefers-reduced-motion:reduce){
+  .reveal{opacity:1;transform:none;transition:none}
+  .marq-track{animation:none}
+  html{scroll-behavior:auto}
+}
+@media(max-width:960px){
+  .hero-grid,.svc,.contact,footer .cols{grid-template-columns:1fr}
+  .svc-aside{position:static}
+  .figure{order:-1}
+  .figure img{aspect-ratio:4/3.1}
+  .chip{left:14px;bottom:-16px}
+  .quotes,.gal{grid-template-columns:1fr 1fr}
+  .gal figure:first-child{grid-row:span 2}
+  .nav ul{display:none}
+  section{padding:70px 0}
+  .trust div{padding-right:18px;margin-right:18px}
+}
+@media(max-width:720px){
+  body{padding-bottom:70px}
+  .quotes,.row2{grid-template-columns:1fr}
+  .gal{grid-template-columns:1fr;grid-template-rows:auto}
+  .gal figure{height:200px}
+  .gal figure:first-child{grid-row:auto;height:260px}
+  .mbar{display:flex}
+  .wa{display:none}
+  .band{height:380px}
+  .hero{padding:44px 0 64px}
+  .flag{font-size:11px}
+}
+
+</style>
+</head>
+<body>
+
+<div class="flag"><b>Preview</b><i>·</i>A free demo site prepared for Architect Kshitij Dhande<i>·</i>no obligation</div>
+
+<header>
+  <div class="wrap nav">
+    <a class="brand" href="#top"><span class="mark">AK</span><span>Architect Kshitij Dhande</span></a>
+    <ul>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#gallery">Gallery</a></li>
+      <li><a href="#reviews">Reviews</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <a class="btn btn-main btn-mini" href="#contact">Book a first meeting</a>
+  </div>
+</header>
+
+<main id="top">
+<section class="hero">
+  <div class="wrap hero-grid">
+    <div>
+      <span class="eye">Architecture &amp; interiors · Nashik</span>
+      <h1>Spaces that <em>look finished.</em></h1>
+      <p class="lede">Design and build in Nashik, from the first sketch to the final styling. 3D walkthroughs before a wall moves, turnkey execution on a fixed timeline.</p>
+      <div class="cta-row">
+        <a class="btn btn-main" href="tel:+917020895789">Call +91 70208 95789</a>
+        <a class="btn btn-wa" href="https://wa.me/917020895789" target="_blank" rel="noopener">Chat on WhatsApp</a>
+      </div>
+      <div class="trust">
+        <div><b class="stars">★★★★★</b><small>4.7 · 70 Google reviews</small></div>
+        <div><b>6</b><small>Services offered</small></div>
+        <div><b>24 hours</b><small>Reply to enquiries</small></div>
+      </div>
+    </div>
+    <div class="figure">
+      <img src="https://media.base44.com/images/public/6aeca70f0a30eb7582ff08cd/ba78165d4_generated_image.png/v1/fill/w_900,h_1060,al_c,q_78/file.jpg" alt="Architect Kshitij Dhande — Architect in Nashik" fetchpriority="high" width="900" height="1060">
+      <div class="chip">
+        <span class="dot">AK</span>
+        <div><b>Architect Kshitij Dhande</b><small>+91 70208 95789</small></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="marq" aria-hidden="true">
+  <div class="marq-track"><span>3D walkthroughs</span><span>Fixed timelines</span><span>Turnkey delivery</span><span>Transparent quotes</span><span>3D walkthroughs</span><span>Fixed timelines</span><span>Turnkey delivery</span><span>Transparent quotes</span></div>
+</div>
+
+<section id="services">
+  <div class="wrap svc">
+    <div class="svc-aside reveal">
+      <div class="kick">What we do</div>
+      <h2 class="h2">Everything you need, under one roof</h2>
+      <p>Straightforward architect work with clear pricing and people who explain every step. Serving Nashik and the surrounding area.</p>
+      <div class="cta-row"><a class="btn btn-line btn-mini" href="#contact">Book a first meeting</a></div>
+    </div>
+    <div class="rows reveal">      <div class="row"><div class="no">01</div><div><h3>Residential Design</h3><p>Full-home interiors from concept to final styling.</p></div></div>
+      <div class="row"><div class="no">02</div><div><h3>Commercial Spaces</h3><p>Offices, clinics and retail that work as hard as you do.</p></div></div>
+      <div class="row"><div class="no">03</div><div><h3>3D Visualisation</h3><p>See the space before a single wall is moved.</p></div></div>
+      <div class="row"><div class="no">04</div><div><h3>Turnkey Execution</h3><p>One team for civil work, furniture and finishes.</p></div></div>
+      <div class="row"><div class="no">05</div><div><h3>Modular Kitchens &amp; Wardrobes</h3><p>Made-to-measure storage that fits the room.</p></div></div>
+      <div class="row"><div class="no">06</div><div><h3>Consultation</h3><p>A first meeting to scope your space and budget honestly.</p></div></div></div>
+  </div>
+</section>
+
+<section class="band">
+  <img src="https://media.base44.com/images/public/6aeca70f0a30eb7582ff08cd/c1019b8a7_generated_image.png/v1/fill/w_1600,h_720,al_c,q_78/file.jpg" alt="Architect Kshitij Dhande" loading="lazy" width="1600" height="700">
+  <div class="band-in">
+    <div class="wrap">
+      <h2>See the space before you build it.</h2>
+      <p>Every project starts with drawings you can walk through, not a moodboard and a promise.</p>
+    </div>
+  </div>
+</section>
+
+<section id="gallery">
+  <div class="wrap">
+    <div class="reveal" style="max-width:52ch;margin-bottom:34px">
+      <div class="kick">Gallery</div>
+      <h2 class="h2">A look inside</h2>
+    </div>
+    <div class="gal reveal">
+      <figure><img src="https://media.base44.com/images/public/6aeca70f0a30eb7582ff08cd/302117860_generated_image.png/v1/fill/w_900,h_1100,al_c,q_78/file.jpg" alt="Living space" loading="lazy"><figcaption>Living space</figcaption></figure>
+      <figure><img src="https://media.base44.com/images/public/6aeca70f0a30eb7582ff08cd/cff26f63e_generated_image.png/v1/fill/w_700,h_520,al_c,q_78/file.jpg" alt="Kitchen" loading="lazy"><figcaption>Kitchen</figcaption></figure>
+      <figure><img src="https://media.base44.com/images/public/6aeca70f0a30eb7582ff08cd/ba78165d4_generated_image.png/v1/fill/w_700,h_520,al_c,q_78/file.jpg" alt="The studio" loading="lazy"><figcaption>The studio</figcaption></figure></div>
+    <p class="note">Demo photography — your own photos go here, and they are what turns a visit into a booking.</p>
+  </div>
+</section>
+
+<section id="reviews" style="background:var(--soft)">
+  <div class="wrap">
+    <div class="reveal" style="max-width:52ch;margin-bottom:34px">
+      <div class="kick">Reviews</div>
+      <h2 class="h2">What Nashik customers say</h2>
+    </div>
+    <div class="quotes reveal">      <blockquote class="quote"><div><div class="q">“</div><p>The 3D walkthrough meant there were no arguments during execution. What we approved is what got built.</p></div><footer><span class="avatar">N</span><div><strong>Nikhil &amp; Aarti</strong><span>Home interiors</span></div></footer></blockquote>
+      <blockquote class="quote"><div><div class="q">“</div><p>They finished in the committed timeline and flagged two cost savings we had not thought of.</p></div><footer><span class="avatar">F</span><div><strong>Faisal A.</strong><span>Office fit-out</span></div></footer></blockquote>
+      <blockquote class="quote"><div><div class="q">“</div><p>Handled civil work, furniture and lighting as one contract. One person to call when something needed fixing.</p></div><footer><span class="avatar">S</span><div><strong>Shweta R.</strong><span>Apartment</span></div></footer></blockquote></div>
+    <p class="note">Sample wording — your real Google reviews will be pulled in before this goes live.</p>
+  </div>
+</section>
+
+<section id="contact">
+  <div class="wrap contact">
+    <div class="reveal">
+      <div class="kick">Visit or book</div>
+      <h2 class="h2">Find us in Nashik</h2>
+      <ul class="info">
+        <li><span class="ic">☎</span><div><b>Phone</b><a href="tel:+917020895789">+91 70208 95789</a></div></li>
+        <li><span class="ic">⌖</span><div><b>Serving</b>Nashik and nearby areas</div></li>
+        
+      </ul>
+      <ul class="hours">      <li>Monday – Saturday<span>10:00 am – 7:00 pm</span></li>
+      <li>Sunday<span>By appointment</span></li></ul>
+    </div>
+    <form id="book" class="reveal" novalidate>
+      <h3>Book a first meeting</h3>
+      <p class="hint">Send your details and we will confirm on WhatsApp or by phone.</p>
+      <div class="row2">
+        <div class="field"><label for="n">Your name</label><input id="n" name="name" autocomplete="name" required></div>
+        <div class="field"><label for="p">Phone</label><input id="p" name="phone" inputmode="tel" autocomplete="tel" required></div>
+      </div>
+      <div class="row2">
+        <div class="field"><label for="s">Service</label><select id="s"><option>Residential Design</option><option>Commercial Spaces</option><option>3D Visualisation</option><option>Turnkey Execution</option><option>Modular Kitchens &amp; Wardrobes</option><option>Consultation</option><option>Something else</option></select></div>
+        <div class="field"><label for="d">Preferred date</label><input id="d" type="date"></div>
+      </div>
+      <div class="field"><label for="m">Anything we should know?</label><textarea id="m" rows="3"></textarea></div>
+      <button class="btn btn-main" type="submit">Send request</button>
+      <p class="small">We reply during opening hours. Prefer to talk? +91 70208 95789</p>
+    </form>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="cols">
+      <div>
+        <a class="brand" href="#top"><span class="mark">AK</span><span>Architect Kshitij Dhande</span></a>
+        <p>Architect in Nashik. Trusted by neighbours, priced without surprises.</p>
+      </div>
+      <div>
+        <h4>Explore</h4>
+        <ul>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#reviews">Reviews</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Get in touch</h4>
+        <ul>
+          <li><a href="tel:+917020895789">+91 70208 95789</a></li><li>Nashik</li>
+        </ul>
+      </div>
+    </div>
+    <div class="legal">
+      <span>© <span id="yr">2026</span> Architect Kshitij Dhande. All rights reserved.</span>
+      <span>Demo site · sample content · stock photography</span>
+    </div>
+  </div>
+</footer>
+
+<a class="wa" href="https://wa.me/917020895789" target="_blank" rel="noopener" aria-label="Chat on WhatsApp"><svg viewBox="0 0 24 24"><path d="M17.5 14.4c-.3-.2-1.8-.9-2.1-1-.3-.1-.5-.2-.7.1-.2.3-.7.9-.9 1.1-.2.2-.3.2-.6.1-.3-.1-1.3-.5-2.4-1.5-.9-.8-1.4-1.7-1.6-2-.2-.3 0-.5.1-.6.1-.1.3-.4.4-.5.1-.2.2-.3.3-.5.1-.2 0-.4 0-.5 0-.2-.7-1.6-.9-2.2-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.4 0 1.4 1 2.8 1.2 3 .1.2 1.8 2.8 4.4 3.8 2.1.8 2.6.7 3.1.6.5-.1 1.6-.7 1.8-1.3.2-.6.2-1.2.2-1.3-.1-.2-.2-.3-.4-.4zM12 21.5c-1.7 0-3.3-.4-4.7-1.3l-.3-.2-3.5.9.9-3.4-.2-.3C3.1 15.7 2.6 14 2.6 12 2.6 6.8 6.8 2.6 12 2.6S21.4 6.8 21.4 12 17.2 21.5 12 21.5zm0-20.9C5.7.6.6 5.7.6 12c0 2 .5 4 1.5 5.7L.5 23.5l6-1.6c1.6.9 3.5 1.4 5.5 1.4 6.3 0 11.4-5.1 11.4-11.4S18.3.6 12 .6z"/></svg></a>
+<div class="mbar"><a class="btn btn-main" href="tel:+917020895789">Call now</a><a class="btn btn-wa" href="https://wa.me/917020895789" target="_blank" rel="noopener">WhatsApp</a></div>
+
+<script>
+document.getElementById('yr').textContent = new Date().getFullYear();
+var io = new IntersectionObserver(function(es){
+  es.forEach(function(en){ if(en.isIntersecting){ en.target.classList.add('in'); io.unobserve(en.target); } });
+},{threshold:.1});
+document.querySelectorAll('.reveal').forEach(function(el){ io.observe(el); });
+
+document.getElementById('book').addEventListener('submit', function(ev){
+  ev.preventDefault();
+  var n = document.getElementById('n').value.trim();
+  var p = document.getElementById('p').value.trim();
+  if(!n){ document.getElementById('n').focus(); return; }
+  if(!p){ document.getElementById('p').focus(); return; }
+  var s = document.getElementById('s').value;
+  var d = document.getElementById('d').value;
+  var m = document.getElementById('m').value.trim();
+  var msg = "Hi Architect Kshitij Dhande, I would like to book " + s + ".\nName: " + n + "\nPhone: " + p
+          + (d ? "\nDate: " + d : "") + (m ? "\nNotes: " + m : "");
+  var btn = ev.target.querySelector('button');
+  var label = btn.textContent;
+  btn.textContent = 'Opening WhatsApp…';
+  setTimeout(function(){
+    if("https://wa.me/917020895789"){ window.open("https://wa.me/917020895789" + "?text=" + encodeURIComponent(msg), "_blank"); }
+    btn.textContent = label;
+  }, 220);
+});
+</script>
+
+</body>
+</html>

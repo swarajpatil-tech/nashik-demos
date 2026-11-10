@@ -1,0 +1,314 @@
+[
+ {
+  "business_name": "GOOD LIFE GYM",
+  "slug": "good-life-gym-d77255",
+  "prospect_id": "6aecb3ebcbbf1230be67005f",
+  "theme": "gym",
+  "old_url": "https://superagent-82ff08cd.base44.app/functions/demoSite?s=good-life-gym-d77255",
+  "bytes": 24034
+ },
+ {
+  "business_name": "Arohana Interiors",
+  "slug": "arohana-interiors-90123c",
+  "prospect_id": "6aecb3ed1f725a9807b850ba",
+  "theme": "design",
+  "old_url": "https://superagent-82ff08cd.base44.app/functions/demoSite?s=arohana-interiors-90123c",
+  "bytes": 24250
+ },
+ {
+  "business_name": "Kohinoor Wedding Planner",
+  "slug": "kohinoor-wedding-planner-5a5167",
+  "prospect_id": "6aecb3efed8c40554a913b48",
+  "theme": "events",
+  "old_url": "https://superagent-82ff08cd.base44.app/functions/demoSite?s=kohinoor-wedding-planner-5a5167",
+  "bytes": 24287
+ },
+ {
+  "business_name": "Ashish H. Nere (Tax Consultant)",
+  "slug": "ashish-h-nere-tax-consultant-90aa0a",
+  "prospect_id": "6aecb3ead0c19b42e74849be",
+  "theme": "finance",
+  "old_url": "https://superagent-82ff08cd.base44.app/functions/demoSite?s=ashish-h-nere-tax-consultant-90aa0a",
+  "bytes": 24166
+ },
+ {
+  "business_name": "Lunawat Shah & Associates",
+  "slug": "lunawat-shah-associates-206386",
+  "prospect_id": "6aecb3e9e346dc747ce25692",
+  "theme": "finance",
+  "old_url": "https://superagent-82ff08cd.base44.app/functions/demoSite?s=lunawat-shah-associates-206386",
+  "bytes": 24168
+ },
+ {
+  "business_name": "M. P. Nikhade & Co., Chartered Accountants",
+  "slug": "m-p-nikhade-co-chartered-accountants-3cd6cc",
+  "prospect_id": "6aecb3e99fc9521c60ae0ff4",
+  "theme": "finance",
+  "old_url": "https://superagent-82ff08cd.base44.app/functions/demoSite?s=m-p-nikhade-co-chartered-accountants-3cd6cc",
+  "bytes": 24321
+ },
+ {
+  "business_name": "Advocate Sandesh S. Jagtap",
+  "slug": "advocate-sandesh-s-jagtap-6a32d5",
+  "prospect_id": "6aecb3eba636c0a2142881b2",
+  "theme": "legal",
+  "old_url": "https://superagent-82ff08cd.base44.app/functions/demoSite?s=advocate-sandesh-s-jagtap-6a32d5",
+  "bytes": 24245
+ },
+ {
+  "business_name": "BHADANE DENTAL CLINIC",
+  "slug": "bhadane-dental-clinic-09a724",
+  "prospect_id": "6aecb4638eed0680bb2db0f4",
+  "theme": "dental",
+  "old_url": "https://superagent-82ff08cd.base44.app/functions/demoSite?s=bhadane-dental-clinic-09a724",
+  "bytes": 24270
+ },
+ {
+  "business_name": "Aakar Studio",
+  "slug": "aakar-studio-f9d964",
+  "prospect_id": "6aecb3ed1355d1d2e60ebf31",
+  "theme": "design",
+  "old_url": "https://superagent-82ff08cd.base44.app/functions/demoSite?s=aakar-studio-f9d964",
+  "bytes": 24205
+ },
+ {
+  "business_name": "Gravity Physio",
+  "slug": "gravity-physio-5b6cf3",
+  "prospect_id": "6aecb4643c55810ae356ec36",
+  "theme": "medical",
+  "old_url": "https://superagent-82ff08cd.base44.app/functions/demoSite?s=gravity-physio-5b6cf3",
+  "bytes": 24176
+ },
+ {
+  "business_name": "Mirza Kotkar & Co., Chartered Accountants",
+  "slug": "mirza-kotkar-co-chartered-accountants-9c518c",
+  "prospect_id": "6aecb3e946d73756cc536df7",
+  "theme": "finance",
+  "old_url": "https://superagent-82ff08cd.base44.app/functions/demoSite?s=mirza-kotkar-co-chartered-accountants-9c518c",
+  "bytes": 24312
+ },
+ {
+  "business_name": "CA Kiran Zade and Associates",
+  "slug": "ca-kiran-zade-and-associates-d22e0e",
+  "prospect_id": "6aecb3e96bac994c98ab9ead",
+  "theme": "finance",
+  "old_url": "https://superagent-82ff08cd.base44.app/functions/demoSite?s=ca-kiran-zade-and-associates-d22e0e",
+  "bytes": 24163
+ },
+ {
+  "business_name": "Advocate Nita Sharma & Associates",
+  "slug": "advocate-nita-sharma-associates-126d1c",
+  "prospect_id": "6aecb3eae973b1c6a733ee75",
+  "theme": "legal",
+  "old_url": "https://superagent-82ff08cd.base44.app/functions/demoSite?s=advocate-nita-sharma-associates-126d1c",
+  "bytes": 24340
+ },
+ {
+  "business_name": "Nasik Lawyers Adv Barad",
+  "slug": "nasik-lawyers-adv-barad-977bbd",
+  "prospect_id": "6aecb3ebe5096cfe252aba17",
+  "theme": "legal",
+  "old_url": "https://superagent-82ff08cd.base44.app/functions/demoSite?s=nasik-lawyers-adv-barad-977bbd",
+  "bytes": 24218
+ },
+ {
+  "business_name": "Architect Hemant Bhavsar",
+  "slug": "architect-hemant-bhavsar-431c42",
+  "prospect_id": "6aecb3ecc297f1fff8d909f8",
+  "theme": "design",
+  "old_url": "https://superagent-82ff08cd.base44.app/functions/demoSite?s=architect-hemant-bhavsar-431c42",
+  "bytes": 24281
+ },
+ {
+  "business_name": "Gulab Dadaji Aher - Advocate",
+  "slug": "gulab-dadaji-aher-advocate-678c72",
+  "prospect_id": "6aecb3eba0d6536e718a6cb9",
+  "theme": "legal",
+  "old_url": "https://superagent-82ff08cd.base44.app/functions/demoSite?s=gulab-dadaji-aher-advocate-678c72",
+  "bytes": 24263
+ },
+ {
+  "business_name": "Countless Stories Entertainment",
+  "slug": "countless-stories-entertainment-403c37",
+  "prospect_id": "6aecb3ef55139d9feb25f3d7",
+  "theme": "events",
+  "old_url": "https://superagent-82ff08cd.base44.app/functions/demoSite?s=countless-stories-entertainment-403c37",
+  "bytes": 24350
+ },
+ {
+  "business_name": "GOOD HEALTH PHYSIOTHERAPY CLINIC",
+  "slug": "good-health-physiotherapy-clinic-fa30ab",
+  "prospect_id": "6aecb4647f4adf0cabbc32ee",
+  "theme": "medical",
+  "old_url": "https://superagent-82ff08cd.base44.app/functions/demoSite?s=good-health-physiotherapy-clinic-fa30ab",
+  "bytes": 24338
+ },
+ {
+  "business_name": "Architect Kshitij Dhande",
+  "slug": "architect-kshitij-dhande-f672f6",
+  "prospect_id": "6aecb3ec90ef59d3d09aa92d",
+  "theme": "design",
+  "old_url": "https://superagent-82ff08cd.base44.app/functions/demoSite?s=architect-kshitij-dhande-f672f6",
+  "bytes": 24281
+ },
+ {
+  "business_name": "Ar. Vinayak & Rudra Patil - Architects, Interior & Landscape",
+  "slug": "ar-vinayak-rudra-patil-architects-interi-3fd35e",
+  "prospect_id": "6aecb3ecd12ab353039d7bb2",
+  "theme": "design",
+  "old_url": "https://superagent-82ff08cd.base44.app/functions/demoSite?s=ar-vinayak-rudra-patil-architects-interi-3fd35e",
+  "bytes": 24669
+ },
+ {
+  "business_name": "Jeevan Lahoti And Associates",
+  "slug": "jeevan-lahoti-and-associates-093891",
+  "prospect_id": "6aecb3e82acc98bc675e718f",
+  "theme": "finance",
+  "old_url": "https://superagent-82ff08cd.base44.app/functions/demoSite?s=jeevan-lahoti-and-associates-093891",
+  "bytes": 24163
+ },
+ {
+  "business_name": "PIAC IAS FOR UPSC, MPSC",
+  "slug": "piac-ias-for-upsc-mpsc-fda6fd",
+  "prospect_id": "6aecb3edd51916a0377107e4",
+  "theme": "education",
+  "old_url": "https://superagent-82ff08cd.base44.app/functions/demoSite?s=piac-ias-for-upsc-mpsc-fda6fd",
+  "bytes": 24329
+ },
+ {
+  "business_name": "Priyam Physiotherapy Centre",
+  "slug": "priyam-physiotherapy-centre-499fa0",
+  "prospect_id": "6aecb463ad608402c7295f8f",
+  "theme": "medical",
+  "old_url": "https://superagent-82ff08cd.base44.app/functions/demoSite?s=priyam-physiotherapy-centre-499fa0",
+  "bytes": 24293
+ },
+ {
+  "business_name": "Tulip Physiotherapy Clinic",
+  "slug": "tulip-physiotherapy-clinic-6fc4a9",
+  "prospect_id": "6aecb4630a0f3b502ded204d",
+  "theme": "medical",
+  "old_url": "https://superagent-82ff08cd.base44.app/functions/demoSite?s=tulip-physiotherapy-clinic-6fc4a9",
+  "bytes": 24285
+ },
+ {
+  "business_name": "Dr. Dhakad's Noble Smile Multi-speciality Dental Clinic",
+  "slug": "dr-dhakad-s-noble-smile-multi-speciality-0757b0",
+  "prospect_id": "6aecb462bd425ff20eba4232",
+  "theme": "dental",
+  "old_url": "https://superagent-82ff08cd.base44.app/functions/demoSite?s=dr-dhakad-s-noble-smile-multi-speciality-0757b0",
+  "bytes": 24618
+ },
+ {
+  "business_name": "Harmony Physiotherapy Clinic",
+  "slug": "harmony-physiotherapy-clinic-98ff5e",
+  "prospect_id": "6aecb4631eea9c5524db33a5",
+  "theme": "medical",
+  "old_url": "https://superagent-82ff08cd.base44.app/functions/demoSite?s=harmony-physiotherapy-clinic-98ff5e",
+  "bytes": 24303
+ },
+ {
+  "business_name": "Smile Plus Dental Clinic",
+  "slug": "smile-plus-dental-clinic-b311da",
+  "prospect_id": "6aecb4621448249f26416add",
+  "theme": "dental",
+  "old_url": "https://superagent-82ff08cd.base44.app/functions/demoSite?s=smile-plus-dental-clinic-b311da",
+  "bytes": 24298
+ },
+ {
+  "business_name": "Dr. Kulkarni's Physiotherapy Clinic",
+  "slug": "dr-kulkarni-s-physiotherapy-clinic-55c240",
+  "prospect_id": "6aecb463646d066c9a7a5e69",
+  "theme": "medical",
+  "old_url": "https://superagent-82ff08cd.base44.app/functions/demoSite?s=dr-kulkarni-s-physiotherapy-clinic-55c240",
+  "bytes": 24407
+ },
+ {
+  "business_name": "Apex Dental Multi-Speciality Clinic",
+  "slug": "apex-dental-multi-speciality-clinic-c584c3",
+  "prospect_id": "6aecb462432b84c6ed4c7ce9",
+  "theme": "dental",
+  "old_url": "https://superagent-82ff08cd.base44.app/functions/demoSite?s=apex-dental-multi-speciality-clinic-c584c3",
+  "bytes": 24397
+ },
+ {
+  "business_name": "CA Piyush Sant & Associates",
+  "slug": "ca-piyush-sant-associates-4a9901",
+  "prospect_id": "6aecb3e9288bace549d621bf",
+  "theme": "finance",
+  "old_url": "https://superagent-82ff08cd.base44.app/functions/demoSite?s=ca-piyush-sant-associates-4a9901",
+  "bytes": 24186
+ },
+ {
+  "business_name": "D+J Design Studio",
+  "slug": "d-j-design-studio-a7942e",
+  "prospect_id": "6aecb3ec5d0ab40b88d9dee5",
+  "theme": "design",
+  "old_url": "https://superagent-82ff08cd.base44.app/functions/demoSite?s=d-j-design-studio-a7942e",
+  "bytes": 24223
+ },
+ {
+  "business_name": "Jupiter Events & Entertainment",
+  "slug": "jupiter-events-entertainment-021e75",
+  "prospect_id": "6aecb3eeb648c80a62e5f816",
+  "theme": "events",
+  "old_url": "https://superagent-82ff08cd.base44.app/functions/demoSite?s=jupiter-events-entertainment-021e75",
+  "bytes": 24366
+ },
+ {
+  "business_name": "Chetan Alai and Associates, Advocates",
+  "slug": "chetan-alai-and-associates-advocates-b786cb",
+  "prospect_id": "6aecb3eaf3a5e9040f014654",
+  "theme": "legal",
+  "old_url": "https://superagent-82ff08cd.base44.app/functions/demoSite?s=chetan-alai-and-associates-advocates-b786cb",
+  "bytes": 24345
+ },
+ {
+  "business_name": "Afterthink Studio",
+  "slug": "afterthink-studio-fb69f9",
+  "prospect_id": "6aecb3edeb5ddb5925bf813b",
+  "theme": "design",
+  "old_url": "https://superagent-82ff08cd.base44.app/functions/demoSite?s=afterthink-studio-fb69f9",
+  "bytes": 24251
+ },
+ {
+  "business_name": "Chetan Anand & Co.",
+  "slug": "chetan-anand-co-577577",
+  "prospect_id": "6aecb3e82b5b468122960603",
+  "theme": "finance",
+  "old_url": "https://superagent-82ff08cd.base44.app/functions/demoSite?s=chetan-anand-co-577577",
+  "bytes": 24106
+ },
+ {
+  "business_name": "Myboli Academy",
+  "slug": "myboli-academy-9a3a8b",
+  "prospect_id": "6aecb3ee80f92eefa389a193",
+  "theme": "education",
+  "old_url": "https://superagent-82ff08cd.base44.app/functions/demoSite?s=myboli-academy-9a3a8b",
+  "bytes": 24249
+ },
+ {
+  "business_name": "Astitva MPSC & UPSC Academy",
+  "slug": "astitva-mpsc-upsc-academy-e972ea",
+  "prospect_id": "6aecb3eeb5d6d6182673814e",
+  "theme": "education",
+  "old_url": "https://superagent-82ff08cd.base44.app/functions/demoSite?s=astitva-mpsc-upsc-academy-e972ea",
+  "bytes": 24398
+ },
+ {
+  "business_name": "NK Events Decorations & Entertainment",
+  "slug": "nk-events-decorations-entertainment-047455",
+  "prospect_id": "6aecb3eeb5ebd0c7d8020b11",
+  "theme": "events",
+  "old_url": "https://superagent-82ff08cd.base44.app/functions/demoSite?s=nk-events-decorations-entertainment-047455",
+  "bytes": 24429
+ },
+ {
+  "business_name": "LM Consultancy",
+  "slug": "lm-consultancy-3fb662",
+  "prospect_id": "6aecb3ea366ccc49ce65f004",
+  "theme": "finance",
+  "old_url": "https://superagent-82ff08cd.base44.app/functions/demoSite?s=lm-consultancy-3fb662",
+  "bytes": 24014
+ }
+]
